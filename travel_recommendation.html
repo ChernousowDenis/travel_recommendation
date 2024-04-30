@@ -1,1 +1,121 @@
+<!DOCTYPE html>
+<html>
 
+<head>
+    <meta charset="utf-8">
+    <title>About Us</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        #topnav {
+            width: 100%;
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-color: black;
+            font-family: Arial, sans-serif;
+            font-size: 15px;
+            z-index: 9999;
+            /* Ensure the nav bar is above other elements */
+        }
+
+        .nav-link {
+            display: inline-block;
+            width: 100px;
+            height: 55px;
+            color: white;
+            text-align: center;
+            line-height: 55px;
+            text-decoration: none;
+        }
+
+        #logo {
+            width: 120px;
+            background-color: royalblue;
+            font-weight: bold;
+        }
+
+        #about {
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+
+        .search_bar {
+            height: 30px;
+            width: 200px;
+            display: block;
+            margin-top: 12px;
+            margin-right: 10px;
+            float: right;
+        }
+
+        body {
+            background-image: url('view-of-city-street-at-night.jpg');
+            background-size: cover;
+            margin-top: 55px;
+            /* Add margin to the top to prevent content from being hidden under the nav bar */
+            padding-top: 20px;
+            /* Add padding to the top to create space between the nav bar and content */
+            color: white;
+            /* Change text color to white */
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            /* Center the content horizontally */
+        }
+
+        .social-links {
+            margin-top: 50px;
+            /* Add margin to create space between content and social links */
+            text-align: center;
+            /* Center the social links */
+        }
+
+        .social-link {
+            margin: 0 10px;
+            /* Add margin between social links */
+            color: white;
+            /* Change link color to white */
+        }
+    </style>
+</head>
+
+<body>
+    <nav id="topnav">
+        <a id="logo" class="nav-link" href="#">MY NAME</a>
+        <a class="nav-link" href="#">Home</a>
+        <a class="nav-link" href="#">Contact</a>
+        <a class="nav-link" href="#">About us</a>
+        <input type="text" class="search_bar">
+    </nav>
+
+    <div class="container">
+        <h1>About Us</h1>
+        <p>Welcome to our company! We strive to deliver high-quality products and services to our customers.</p>
+        <h2>Our Team</h2>
+        <div class="team-member">
+            <h3>John Doe</h3>
+            <p>CEO</p>
+        </div>
+        <div class="team-member">
+            <h3>Jane Smith</h3>
+            <p>CTO</p>
+        </div>
+        <div class="team-member">
+            <h3>Michael Johnson</h3>
+            <p>Marketing Director</p>
+        </div>
+    </div>
+
+    <div class="social-links">
+        <h2>Follow Us on Social Media</h2>
+        <a href="https://www.facebook.com/" class="social-link"><i class="fab fa-facebook"></i></a>
+        <a href="https://twitter.com/" class="social-link"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.instagram.com/" class="social-link"><i class="fab fa-instagram"></i></a>
+    </div>
+</body>
+
+</html>
